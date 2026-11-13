@@ -1,0 +1,22 @@
+project: AI-Based Coal Mine Production Analysis, Mining Company Performance Assessment,
+  and Production Optimization System
+algorithm: Particle Swarm Optimization
+dataset: rs_session-241_au482_1.1.csv
+target: Coal_Production
+features:
+- Company
+number_of_particles: 12
+maximum_iterations: 12
+inertia_weight: 0.7
+cognitive_coefficient: 1.5
+social_coefficient: 1.5
+fitness_metric: Cross-validation RMSE
+best_hyperparameters:
+  n_estimators: 50
+  max_depth: 6
+  min_samples_split: 15
+  min_samples_leaf: 1
+  max_features: 0.3
+best_cv_rmse: 3267934.5279498035
+test_size: 0.2
+random_seed: 42

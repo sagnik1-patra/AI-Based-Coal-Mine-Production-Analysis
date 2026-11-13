@@ -1,0 +1,36 @@
+{
+    "project": "AI-Based Coal Mine Production Analysis, Mining Company Performance Assessment, and Production Optimization System",
+    "algorithm": "Particle Swarm Optimization",
+    "dataset": "rs_session-241_au482_1.1.csv",
+    "records": 417,
+    "companies": 16,
+    "mines": 396,
+    "best_hyperparameters": {
+        "n_estimators": 50,
+        "max_depth": 6,
+        "min_samples_split": 15,
+        "min_samples_leaf": 1,
+        "max_features": 0.3
+    },
+    "best_cross_validation_rmse": 3267934.5279498035,
+    "baseline_metrics": {
+        "MAE": 522775.5769351511,
+        "MSE": 2400873969603.943,
+        "RMSE": 1549475.3852849496,
+        "R2": 0.15851398324977273
+    },
+    "pso_metrics": {
+        "MAE": 556596.0515151332,
+        "MSE": 2445907086306.5645,
+        "RMSE": 1563939.6044306073,
+        "R2": 0.1427302567919494
+    },
+    "ann_metrics": {
+        "MAE": 512855.9561616443,
+        "MSE": 2635466546533.2407,
+        "RMSE": 1623412.0076349198,
+        "R2": 0.07629126951358656
+    },
+    "evaluated_configurations": 105,
+    "notes": "PSO optimizes Random Forest hyperparameters. The H5 model is a separate ANN comparison model. The dataset supports cross-sectional analysis, not validated future production forecasting."
+}

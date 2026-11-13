@@ -1,0 +1,36 @@
+{
+    "project": "AI-Based Coal Mine Production Analysis, Mining Company Performance Assessment, and Production Optimization System",
+    "algorithm": "AIS - CLONALG",
+    "dataset": "rs_session-241_au482_1.1.csv",
+    "records": 417,
+    "companies": 16,
+    "mines": 396,
+    "best_hyperparameters": {
+        "n_estimators": 74,
+        "max_depth": 4,
+        "min_samples_split": 3,
+        "min_samples_leaf": 1,
+        "max_features": 0.393398180066293
+    },
+    "best_cross_validation_rmse": 3268443.1317212265,
+    "baseline_metrics": {
+        "MAE": 522775.5769351511,
+        "MSE": 2400873969603.943,
+        "RMSE": 1549475.3852849496,
+        "R2": 0.15851398324977273
+    },
+    "ais_metrics": {
+        "MAE": 548103.1764071027,
+        "MSE": 2454037841169.85,
+        "RMSE": 1566536.8942893909,
+        "R2": 0.13988049599246544
+    },
+    "ann_metrics": {
+        "MAE": 517764.4941629466,
+        "MSE": 2628919882753.7515,
+        "RMSE": 1621394.4254109645,
+        "R2": 0.07858581978842416
+    },
+    "evaluated_configurations": 303,
+    "notes": "AIS optimizes Random Forest hyperparameters. The H5 model is a separate ANN comparison model. Results are based on company-level features."
+}

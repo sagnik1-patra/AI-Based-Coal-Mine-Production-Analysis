@@ -1,0 +1,53 @@
+{
+    "project": "AI-Based Coal Mine Production Analysis, Mining Company Performance Assessment, and Production Optimization System",
+    "dataset": "rs_session-241_au482_1.1.csv",
+    "total_records": 417,
+    "total_companies": 16,
+    "total_mines": 396,
+    "best_ml_model": "Gradient Boosting",
+    "model_results": [
+        {
+            "Model": "Gradient Boosting",
+            "MAE": 521778.6530382198,
+            "MSE": 2403123700732.6055,
+            "RMSE": 1550201.180728684,
+            "R2": 0.15772547152021732
+        },
+        {
+            "Model": "Decision Tree",
+            "MAE": 608638.5404966256,
+            "MSE": 2493738675339.7383,
+            "RMSE": 1579157.5840744134,
+            "R2": 0.1259656894552479
+        },
+        {
+            "Model": "Random Forest",
+            "MAE": 591961.5525368198,
+            "MSE": 2670095658208.2603,
+            "RMSE": 1634042.7345110227,
+            "R2": 0.06415405880784597
+        },
+        {
+            "Model": "Extra Trees",
+            "MAE": 579288.4191138908,
+            "MSE": 2681547552420.79,
+            "RMSE": 1637543.1452089408,
+            "R2": 0.06014026676080375
+        },
+        {
+            "Model": "ANN",
+            "MAE": 504436.63566964294,
+            "MSE": 2686920393261.6304,
+            "RMSE": 1639182.843145215,
+            "R2": 0.05825713149629952
+        },
+        {
+            "Model": "Baseline",
+            "MAE": 700248.2879765478,
+            "MSE": 2863659110546.9834,
+            "RMSE": 1692234.9454336958,
+            "R2": -0.0036882938350144556
+        }
+    ],
+    "notes": "Results are based on company-only features. The dataset does not contain a time dimension for future production forecasting."
+}

@@ -1,0 +1,22 @@
+project: AI-Based Coal Mine Production Analysis, Mining Company Performance Assessment,
+  and Production Optimization System
+dataset: rs_session-241_au482_1.1.csv
+target: Coal_Production
+features:
+- Company
+test_size: 0.2
+random_state: 42
+best_ml_model: Gradient Boosting
+evaluation_metrics:
+- MAE
+- MSE
+- RMSE
+- R2
+output_files:
+- accuracy_graph.png
+- heatmap.png
+- comparison_graph.png
+- result.csv
+- result_graph.png
+- prediction.csv
+- prediction_graph.png

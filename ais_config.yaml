@@ -1,0 +1,22 @@
+project: AI-Based Coal Mine Production Analysis, Mining Company Performance Assessment,
+  and Production Optimization System
+algorithm: Artificial Immune System
+ais_variant: Clonal Selection Algorithm
+dataset: rs_session-241_au482_1.1.csv
+target: Coal_Production
+features:
+- Company
+population_size: 12
+generations: 12
+selected_count: 5
+random_replacements: 3
+fitness_metric: Cross-validation RMSE
+best_hyperparameters:
+  n_estimators: 74
+  max_depth: 4
+  min_samples_split: 3
+  min_samples_leaf: 1
+  max_features: 0.393398180066293
+best_cv_rmse: 3268443.1317212265
+test_size: 0.2
+random_seed: 42
